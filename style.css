@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #eef9ff;
+}
+#sopa {
+  display: inline-grid;
+  grid-template-columns: repeat(20, 30px);
+  gap: 2px;
+  margin: 20px;
+}
+.celda {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #ccc;
+  line-height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+.celda.seleccionada {
+  background-color: #ffe084;
+}
+.celda.correcta {
+  background-color: #a6e3a1;
+}
+#palabras {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+li {
+  margin: 5px 0;
+}
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+}
+.boton {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #ffffff;
+  border: 2px solid #888;
+  border-radius: 8px;
+  box-shadow: 3px 3px 0 #aaa;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.boton:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 0 #666;
+}

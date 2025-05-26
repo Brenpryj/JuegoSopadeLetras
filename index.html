@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sopa de Letras Interactiva - La Rioja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sopa de Letras - La Rioja</h1>
+  <div id="sopa"></div>
+  <div id="palabras">
+    <h2>Palabras a encontrar:</h2>
+    <ul id="listaPalabras"></ul>
+  </div>
+  <p>Selección actual: <span id="seleccionActual"></span></p>
+  <div style="margin-top: 15px;">
+    <button class="boton" onclick="verificarPalabra()">✅ Verificar palabra</button>
+    <button class="boton" onclick="limpiarSeleccion()">❌ Limpiar selección</button>
+    <button class="boton" onclick="borrarUltimo()">🔙 Borrar último</button>
+  </div>
+  <footer>Creado por PB</footer>
+  <script src="script.js"></script>
+</body>
+</html>
